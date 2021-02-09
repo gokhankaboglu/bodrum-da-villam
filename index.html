@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodrum' da Villam</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/"><img class="logo" src="/img/logo.svg" alt="logo"></a>
+            <a href="/"><i class="material-icons search-icon">search</i></a>
+        </nav>
+    </header>
+    <main>
+
+        <section class="slogan">
+            <h1>Bodrum' da<br>eviniz hazır!</h1>
+        </section>
+
+        <section class="filter">
+            <form action="">
+                <label class="calendarTitle" for="calendar">Konaklama tarihi</label><br>
+                <input class="calendarInput" type="text" placeholder="Tarih Seçiniz" name="calendar"><br>
+                <label class="locationTitle" for="location">Semt seçiniz</label><br>
+                <select class="locationInput" name="location">
+                    <option class="locationPlaceholder" value="Semt">Semt</option>
+                    <option value="turkbuku">Türkbükü</option>
+                    <option value="yalikavak">Yalıkavak</option>
+                </select>
+                <label class="homeTypeTitle" for="homeType">Ev tipi</label><br>
+                <select class="homeTypeInput" id="homeType" name="homeType">
+                    <option class="homeTyepPlaceholder" value="Ev Tipi" >Ev Tipi</option>
+                    <option value="villa">Villa</option>
+                    <option value="rezidans">Rezidans</option>
+                </select>
+                <p class="personValue" id="number">0</p>
+                <a class="valueDecrease" href="#">
+                    <div id="decrease" onclick="decreaseValue()" value="Decrease Value">
+                        <i id="minus" class="material-icons">remove_circle</i>
+                    </div>
+                </a>
+                <a class="valueIncrease" href="#">
+                    <div id="increase" onclick="increaseValue()" value="Increase Value">
+                        <i id="plus" class="material-icons">add_circle</i>
+                    </div>
+                </a>
+                <input type="button" class="personButton" value="Gönder">
+            </form>
+        </section>
+
+        <section class="popular">
+            <div class="popularTitle">
+                <h2>Popüler</h2>
+                <a class="seeAll" href="#">Hepsini Göster</a>
+                <a class="seaAllIcon" href="#"><i class="material-icons">east</i></a>
+            </div>
+            <div class="slider">
+                    <img src="https://unsplash.it/200/200" alt="">
+                    <img src="https://unsplash.it/200/200" alt="">
+                    <img src="https://unsplash.it/200/200" alt="">
+                    <img src="https://unsplash.it/200/200" alt="">
+                    <img style="margin-right: 20vw;" src="https://unsplash.it/200/200" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Kurumsal Bilgiler</a></li>
+            <li><a href="#">Kiralama için gerekli dökümanlar</a></li>
+            <li><a href="#">Sözleşme şartları</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+        <span>
+            <img class="logo" src="/img/logo.svg" alt="logo">
+        </span>
+    </footer>
+
+    <script src="js/counter.js"></script>
+</body>
+</html>
