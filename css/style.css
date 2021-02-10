@@ -67,7 +67,7 @@ nav .search-icon {
 .filter form {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(9, 30px);
+    grid-template-rows: repeat(10, 30px);
 }
 .calendarTitle {
     grid-row: 1 / 2;
@@ -93,21 +93,25 @@ nav .search-icon {
     grid-row: 5 / 6;
     grid-column: 7 / 12;
 }
+.personTitle {
+    grid-row: 7 / 8;
+    grid-column: 1 / 6;
+}
 .personValue {
     align-self: center;
-    grid-row: 7 / 8;
+    grid-row: 8 / 9;
     grid-column: 1 / 3;
 }
 .valueDecrease {
-    grid-row: 7 / 8;
+    grid-row: 8 / 9;
     grid-column: 3 / 5;
 }
 .valueIncrease {
-    grid-row: 7 / 8;
+    grid-row: 8 / 9;
     grid-column: 5 / 7;
 }
 .personButton {
-    grid-row: 7 / 8;
+    grid-row: 8 / 9;
     grid-column: 7 / 12;
 }
 
@@ -137,7 +141,9 @@ nav .search-icon {
     outline:0px;
     padding-left: 1.8em;
 }
+.personTitle {
 
+}
 .personValue {
     text-align: center;
     border-radius: 5px;
@@ -152,7 +158,7 @@ nav .search-icon {
 }
 #minus,
 #plus {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.4rem;
 }
 #decrease {
