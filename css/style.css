@@ -20,7 +20,7 @@ body {
     width: 7rem;
 }
 
-///* Typography-start *///
+/* Typography-start */
 
 h1 {
     font-weight: 700;
@@ -35,10 +35,10 @@ p {
     
 }
 
-///* Typography-end *///
+/* Typography-end */
 
 
-///* Nav-start *///
+/* Nav-start */
 
 nav {
     padding: 8vw 8vw 0 8vw;
@@ -50,10 +50,10 @@ nav .search-icon {
     color: var(--blue);
 }
 
-///* Nav-end *///
+/* Nav-end */
 
 
-///* Sections-start *///
+/* Sections-start */
 
 .slogan {
     padding: 4vh 8vw;
@@ -62,7 +62,7 @@ nav .search-icon {
     padding: 0 8vw;
 }
 
-    //* Grid-start *//
+    /* Grid-start */
 
 .filter form {
     display: grid;
@@ -111,9 +111,9 @@ nav .search-icon {
     grid-column: 7 / 12;
 }
 
-    //* Grid-end *//
+    /* Grid-end */
 
-    //* Form-start *//
+    /* Form-start */
 
 .calendarInput {
     font-family: 'poppins', sans-serif;
@@ -173,10 +173,10 @@ nav .search-icon {
     cursor: pointer;
   }
 
-    //* Form-end *//
+    /* Form-end */
 
 
-    //* Slider-start *//
+    /* Slider-start */
 
 .popularTitle {
     display: grid;
@@ -224,11 +224,11 @@ figcaption {
     padding-left: 8vw;
 }
 
-    //* Slider-start *//
+    /* Slider-start */
 
-///* Sections-end *///
+/* Sections-end */
 
-///* Footer-start *///
+/* Footer-start */
 footer {
     margin-top: 5vh;
     padding: 8vw;
@@ -250,4 +250,4 @@ footer span {
     display: flex;
     align-items: flex-end;
 }
-///* Footer-end *///
+/* Footer-end */
