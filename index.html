@@ -23,33 +23,67 @@
 
         <section class="filter">
             <form action="">
-                <label class="calendarTitle" for="calendar">Konaklama tarihi</label><br>
-                <input class="calendarInput" type="text" placeholder="Tarih Seçiniz" name="calendar"><br>
-                <label class="locationTitle" for="location">Semt seçiniz</label><br>
-                <select class="locationInput" name="location">
-                    <option class="locationPlaceholder" value="Semt">Semt</option>
-                    <option value="turkbuku">Türkbükü</option>
-                    <option value="yalikavak">Yalıkavak</option>
-                </select>
-                <label class="homeTypeTitle" for="homeType">Ev tipi</label><br>
-                <select class="homeTypeInput" id="homeType" name="homeType">
-                    <option class="homeTyepPlaceholder" value="Ev Tipi" >Ev Tipi</option>
-                    <option value="villa">Villa</option>
-                    <option value="rezidans">Rezidans</option>
-                </select>
-                <label class="personTitle" for="personTitle">Kişi Sayısı</label><br>
-                <h2 class="personValue" id="number">1</h2>
-                <a class="valueDecrease" href="#">
-                    <div id="decrease" onclick="decreaseValue()" value="Decrease Value">
-                        <i id="minus" class="material-icons">remove</i>
+
+                <div class="cal">
+                    <div>
+                        <label class="calendarTitle" for="calendar">Konaklama tarihi</label>
                     </div>
-                </a>
-                <a class="valueIncrease" href="#">
-                    <div id="increase" onclick="increaseValue()" value="Increase Value">
-                        <i id="plus" class="material-icons">add</i>
+                    <div>
+                        <input class="calendarInput" type="text" placeholder="Tarih Seçiniz" name="calendar">
                     </div>
-                </a>
-                <input type="button" class="personButton" value="Gönder">
+                </div>
+
+                <div class="loc">
+                    <div>
+                        <label class="locationTitle" for="location">Semt seçiniz</label>
+                    </div>
+                    <div>
+                        <select class="locationInput" name="location">
+                            <option class="locationPlaceholder" value="Semt">Semt</option>
+                            <option value="turkbuku">Türkbükü</option>
+                            <option value="yalikavak">Yalıkavak</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="hom">
+                    <div>
+                        <label class="homeTypeTitle" for="homeType">Ev tipi</label>
+                    </div>
+                    <div>
+                        <select style="width: 100%;" class="homeTypeInput" id="homeType" name="homeType">
+                            <option class="homeTyepPlaceholder" value="Ev Tipi" >Ev Tipi</option>
+                            <option value="villa">Villa</option>
+                            <option value="rezidans">Rezidans</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="per">
+                    <div class="personTitle">
+                        <label for="personTitle">Kişi Sayısı</label>
+                    </div>
+                    <div class="personValue">
+                        <p id="number">1</p>
+                    </div>
+                    <div class="eksi">
+                        <a class="valueDecrease" href="#">
+                            <div style="display: inline-block;" id="decrease" onclick="decreaseValue()" value="Decrease Value">
+                                <i id="minus" class="material-icons">remove</i>
+                            </div>
+                        </a>
+                        <a class="valueIncrease" href="#">
+                            <div style="display: inline-block;" id="increase" onclick="increaseValue()" value="Increase Value">
+                                <i id="plus" class="material-icons">add</i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ara">
+                        <input class="personButton" type="button" value="Ara">
+                    </div>
+                </div>
+
+
             </form>
         </section>
 
@@ -65,6 +99,18 @@
                 <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
                 <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
                 <div><img style="margin-right: 20vw;" src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>  
+            </div>
+            <div class="web-slider">
+                <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
+                <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
+                <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
+                <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
+                <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
+                <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
+                <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
+                <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
+                <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
+                <div><img src="https://unsplash.it/246/300" alt=""><figcaption><strong>Havuzlu</strong><br>Kiralık</figcaption></div>
             </div>
         </section>
     </main>
