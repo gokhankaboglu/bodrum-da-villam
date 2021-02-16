@@ -26,6 +26,7 @@ body {
     font-weight: 700;
     font-size: 13vw;
     line-height: 79.5%;
+    margin-bottom: 0;
 }
 .slogan h2 {
     font-weight: 700;
@@ -49,7 +50,6 @@ header {
 nav {
     display: grid;
     grid-template-columns: 8vw 40vw auto 8vw;
-    
 }
 nav .logo {
     grid-column: 2 / 3;
@@ -76,6 +76,7 @@ main {
     background-repeat: no-repeat;
     background-position: 88% 100%;
     background-size: 30vw;
+    
 }
 .filter {
     padding: 0 8vw;
