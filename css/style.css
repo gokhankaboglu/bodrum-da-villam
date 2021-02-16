@@ -106,7 +106,7 @@ main {
         grid-column: 1 / -1;
         grid-row: 3 / 4;
         display: grid;
-        grid-template-columns: repeat(5, auto);
+        grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(2, auto);
     }
     .personTitle {
@@ -117,18 +117,13 @@ main {
         grid-column: 1 / 1;
         grid-row: 2 / 3;
     }
-    .eksi {
+    .eksi-arti {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
         align-self: center;
     }
-    .arti {
-        grid-column: 3 / 4;
-        grid-row: 2 / 3;
-        align-self: center;
-    }
     .ara {
-        grid-column: 5 / -1;
+        grid-column: 3 / -1;
         grid-row: 2 / 3;
         align-self: center;
         justify-self: end;
@@ -146,6 +141,7 @@ main {
     /* Form-start */
 
 .calendarInput {
+    height: 5vh;
     font-family: 'poppins', sans-serif;
     background-color: var(--lightblue);
     border: 0;
@@ -160,6 +156,7 @@ main {
 }
 .locationInput,
 .homeTypeInput {
+    height: 5vh;
     font-family: 'poppins', sans-serif;
     background-color: var(--lightblue);
     border-radius: 5px;
@@ -169,17 +166,34 @@ main {
     padding-left: 1.8em;
     width: 90%;
 }
-.personValue {
-    margin: 0;
+
+select {
+    -webkit-appearance: none;
+    background-image: url("/img/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+
+.personValue > p {
+    font-size: 2rem;
 }
 
-.valueDecrease,
-.valueIncrease {
+.btn {
+    height: 5vh;
+    background-color: white;
     color: var(--blue);
-    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: .6rem 1rem;
+    cursor: pointer;
+}
+.btn i {
+    font-size: 2rem;
 }
 
 .personButton {
+    width: 42vw;
+    height: 5vh;
     font-family: 'poppins', sans-serif;
     background-color: var(--blue);
     border: none;
